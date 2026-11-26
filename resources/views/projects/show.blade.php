@@ -2,7 +2,7 @@
 
 @section('title', $project->tr('title').' | '.setting('site_title', 'MD. HABIB KHAN'))
 @section('description', \Illuminate\Support\Str::limit(strip_tags((string) ($project->tr('short_description') ?: $project->tr('description'))), 160))
-@section('og_image', file_url($project->image))
+@section('og_image', file_url($project->image) ?? '')
 
 @section('content')
 <section class="section pt-5 mt-5">
