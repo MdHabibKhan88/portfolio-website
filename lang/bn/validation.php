@@ -1,0 +1,48 @@
+<?php
+
+return [
+    'boolean' => ':attribute ঘরটি সত্য বা মিথ্যা হতে হবে।',
+    'confirmed' => ':attribute নিশ্চিতকরণ মিলছে না।',
+    'current_password' => 'পাসওয়ার্ডটি সঠিক নয়।',
+    'date' => ':attribute সঠিক তারিখ নয়।',
+    'email' => ':attribute একটি সঠিক ইমেইল ঠিকানা হতে হবে।',
+    'file' => ':attribute একটি ফাইল হতে হবে।',
+    'image' => ':attribute একটি ছবি (jpg, png বা webp) হতে হবে।',
+    'in' => 'নির্বাচিত :attribute সঠিক নয়।',
+    'integer' => ':attribute একটি পূর্ণসংখ্যা হতে হবে।',
+    'max' => [
+        'numeric' => ':attribute সর্বোচ্চ :max হতে পারবে।',
+        'file' => ':attribute সর্বোচ্চ :max কিলোবাইট হতে পারবে।',
+        'string' => ':attribute সর্বোচ্চ :max অক্ষরের হতে পারবে।',
+        'array' => ':attribute-এ সর্বোচ্চ :max টি আইটেম থাকতে পারবে।',
+    ],
+    'mimes' => ':attribute এই ধরনের ফাইল হতে হবে: :values।',
+    'min' => [
+        'numeric' => ':attribute কমপক্ষে :min হতে হবে।',
+        'file' => ':attribute কমপক্ষে :min কিলোবাইট হতে হবে।',
+        'string' => ':attribute কমপক্ষে :min অক্ষরের হতে হবে।',
+        'array' => ':attribute-এ কমপক্ষে :min টি আইটেম থাকতে হবে।',
+    ],
+    'required' => ':attribute দেওয়া আবশ্যক।',
+    'string' => ':attribute লেখা হতে হবে।',
+    'unique' => 'এই :attribute আগে থেকেই আছে।',
+    'url' => ':attribute একটি সঠিক লিংক (http:// বা https:// দিয়ে শুরু) হতে হবে।',
+    'uploaded' => ':attribute আপলোড হয়নি। ফাইলটি হয়তো অনেক বড়।',
+    'password' => [
+        'letters' => ':attribute-এ কমপক্ষে একটি অক্ষর থাকতে হবে।',
+        'numbers' => ':attribute-এ কমপক্ষে একটি সংখ্যা থাকতে হবে।',
+        'mixed' => ':attribute-এ বড় ও ছোট হাতের অক্ষর থাকতে হবে।',
+        'symbols' => ':attribute-এ কমপক্ষে একটি চিহ্ন থাকতে হবে।',
+        'uncompromised' => 'এই :attribute ডেটা লিকে পাওয়া গেছে। অন্যটি বেছে নিন।',
+    ],
+    'attributes' => [
+        'name' => 'নাম', 'email' => 'ইমেইল', 'subject' => 'বিষয়', 'message' => 'বার্তা', 'password' => 'পাসওয়ার্ড',
+        'current_password' => 'বর্তমান পাসওয়ার্ড',
+        'title_en' => 'শিরোনাম (EN)', 'title_bn' => 'শিরোনাম (বাংলা)',
+        'name_en' => 'নাম (EN)', 'name_bn' => 'নাম (বাংলা)',
+        'organization_en' => 'প্রতিষ্ঠান (EN)', 'institution_en' => 'প্রতিষ্ঠান (EN)',
+        'github_url' => 'গিটহাব লিংক', 'live_url' => 'লাইভ ডেমো লিংক', 'url' => 'লিংক',
+        'image' => 'ছবি', 'file' => 'ফাইল', 'photo' => 'প্রোফাইল ছবি', 'cv_file' => 'সিভি ফাইল',
+        'level' => 'লেভেল', 'platform' => 'প্ল্যাটফর্ম', 'skill_category_id' => 'দক্ষতার ক্যাটাগরি',
+    ],
+];
