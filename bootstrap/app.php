@@ -13,6 +13,8 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withMiddleware(function (Middleware $middleware) {
+        // Render (and most hosts) terminate HTTPS before the app; trust their forwarded headers.
+        $middleware->trustProxies(at: '*');
         $middleware->web(append: [SetLocale::class]);
         $middleware->alias(['admin' => EnsureAdmin::class]);
         $middleware->redirectGuestsTo(fn () => route('admin.login'));
