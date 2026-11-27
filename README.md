@@ -1,4 +1,4 @@
-# MD. HABIB KHAN - Personal Portfolio (Laravel 11)
+# MD. HABIB KHAN - Personal Portfolio (Laravel 12)
 
 A bilingual (English / বাংলা) portfolio website with a private admin dashboard.
 You can add and edit **all** content (projects, skills, certificates, volunteering, CV, social links...) from the dashboard. You never need to edit code for normal content.
